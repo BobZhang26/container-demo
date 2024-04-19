@@ -6,6 +6,14 @@
 
 ## steps to build and run the container
 
+!!! VERY IMPORTANT !!!
+activate python virtual environment for the project
+in the project directory, run
+```bash
+python3 -m venv ./venv
+source ./venv/bin/activate
+```
+
 * 1. create a project directory and navigate to the directory
 ```bash
 mkdir containerization-demo
